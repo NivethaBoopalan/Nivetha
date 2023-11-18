@@ -1,0 +1,132 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-11-09T12:07:41.753Z",
+        "line": 2,
+        "name": "Kids Section",
+        "description": "",
+        "id": "limeroad-shopping;kids-section",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5537802600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User launch the browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.step.Step_class.user_launch_the_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3912973800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the Url \"https://www.limeroad.com/shopping-offers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.limeroad.com/shopping-offers\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.step.Step_class.user_launch_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5142017200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks kids",
+            "match": {
+              "location": "com.step.Step_class.user_clicks_kids()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3475003500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks Top and Tees",
+            "match": {
+              "location": "com.step.Step_class.user_clicks_top_and_tees()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3232167100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Select The Dress",
+            "match": {
+              "location": "com.step.Step_class.user_select_the_dress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3252386600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Select The Size",
+            "match": {
+              "location": "com.step.Step_class.user_select_the_size()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 356291600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Add to Cart",
+            "match": {
+              "location": "com.step.Step_class.user_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2980900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Close the Browser",
+            "match": {
+              "location": "com.step.Step_class.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LimeRoad Shopping",
+    "description": "",
+    "id": "limeroad-shopping",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/kidsfeature/Kids.feature",
+    "tags": []
+  }
+]
